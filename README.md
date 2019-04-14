@@ -9,3 +9,5 @@
     $ git clone https://github.com/arkgast/chal-cod-bla
     $ cd chal-cod-bla
     $ pip install -r requirements.txt
+    $ export FLASK_APP=main.py
+    $ flask run

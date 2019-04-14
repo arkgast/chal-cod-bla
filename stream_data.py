@@ -33,7 +33,8 @@ def main():
     twitterStream = Stream(auth, listener())
     twitterStream.filter(
         locations=[
-            -171.791110603, 18.91619, -66.96466, 71.3577635769,
             -73.3049515449, 0.724452215982, -59.7582848782, 12.1623070337
-        ]
+        ],
+        track=['sinluz', 'venezuela', 'maldito maduro',
+               'maracay', 'caracas', 'sininternet', 'sinnada']
     )
